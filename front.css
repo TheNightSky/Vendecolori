@@ -75,6 +75,11 @@ h1 {
     font-family: 'Sarina', cursive;
     padding: 5px;
     color:#56AB91;
+    transition: color .25s;
+}
+
+h1:hover {
+    color: #99E2B4;
 }
 
 nav.siteHeader_nav {display: inline-block;
