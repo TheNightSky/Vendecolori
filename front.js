@@ -11,14 +11,13 @@ var win = document.defaultView;
 
 
 function modifyNav () {
-    if(win.screen.width > 800 && win.screen.width < 1000){
-        navContainer.removeChild(nav);
-        navContainer_1000.appendChild(nav); 
-        
+    if(window.innerWidth > 800 && window.innerWidth  < 1000){
+        nav.remove();
+        navContainer_1000.appendChild(nav);
+        console.log('asjdfdjsfjs')
         
     } else if(win.screen.width > 1000){
-        nav.classList.remove('nav-1000');
-        nav.classList.add('siteHeader_nav');
+        nav.remove();
         navContainer.insertBefore(nav, headerIcons);
     
     }

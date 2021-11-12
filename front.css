@@ -48,6 +48,29 @@ table {
 }
 
 /* ------------My code----------------------------*/
+
+@media (max-width:1000px){
+    nav.siteHeader_nav {
+        display: flex;
+        padding: 2px;
+        border: .5rem;
+        
+    }
+
+    nav.siteHeader_nav li {
+        padding: 0px 2em 0 2em;
+    }
+
+    div#container_nav-1000 {
+        margin-top: 12px;
+        border-color: #959D9C;
+        border-top-width: thin;
+        border-style: solid;
+    }
+
+}
+
+
 html {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -112,7 +135,7 @@ a {
 
     background-color: white;
     transition: color .25s;
-  
+    
 
 }
 
@@ -182,7 +205,7 @@ a {
     color: #070E0C;
     border-color: #070E0C;
     transition: background-color .25s, color .25s, font-weight .25s;
- 
+    
 }
 
 #signUp:hover {
@@ -248,18 +271,12 @@ a {
     
 }
 
-@media (max-width: 1000){
-    div#container_nav-1000 {
+div#container_nav-1000 {
         display: flex;
-        padding: 500px;
-        border: .5rem;
+        padding: 0;
+        border: 0;
+        justify-content: space-around;
     
-    }
-
-    .siteHeader_nav {
-        display: flex;
-        padding: 2px;
-        border: .5rem;
-
 }
-}
+
+
