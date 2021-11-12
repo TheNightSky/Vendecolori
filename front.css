@@ -90,7 +90,8 @@ a {
     color: #99E2B4;
 }
 
-nav.siteHeader_nav {display: inline-block;
+.siteHeader_nav {
+    display: inline-block;
     padding: 2px;
     border: .5rem;
 
@@ -101,7 +102,7 @@ nav.siteHeader_nav {display: inline-block;
     border: 2px;
 }
 
-button.navOptions_button {
+.navOptions_button {
     font-size: 1rem;
     color: #070E0C;
     font-family: 'Roboto', sans-serif;
@@ -154,7 +155,7 @@ button.navOptions_button {
     color: #959D9C;
 }
 
-button.siteHeader_accountButtons {
+.siteHeader_accountButtons {
     background-color: white;
     border-radius: 15px;
     margin: 5px;
@@ -192,8 +193,6 @@ button.siteHeader_accountButtons {
 
 
 
-
-
 /* ----------------- Footer Section ----------------*/
 
 .siteFooter {
@@ -209,7 +208,7 @@ button.siteHeader_accountButtons {
     display: inline-block;
 }
 
-h4.footerTitle {
+.footerTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 500;
@@ -247,4 +246,20 @@ h4.footerTitle {
     
     transform: rotateZ( 35deg);
     
+}
+
+@media (max-width: 1000){
+    div#container_nav-1000 {
+        display: flex;
+        padding: 500px;
+        border: .5rem;
+    
+    }
+
+    .siteHeader_nav {
+        display: flex;
+        padding: 2px;
+        border: .5rem;
+
+}
 }
