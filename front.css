@@ -214,6 +214,13 @@ a {
     background-color: #070E0C;
 }
 
+div#container_nav-1000 {
+    display: flex;
+    padding: 0;
+    border: 0;
+    justify-content: space-around;
+
+}
 
 
 /* ----------------- Footer Section ----------------*/
@@ -271,12 +278,6 @@ a {
     
 }
 
-div#container_nav-1000 {
-        display: flex;
-        padding: 0;
-        border: 0;
-        justify-content: space-around;
-    
-}
+
 
 
